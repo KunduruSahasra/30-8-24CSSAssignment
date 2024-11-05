@@ -1,0 +1,123 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style-type: none;
+    scroll-behavior: smooth;
+}
+body {
+    font-family: Arial, sans-serif;
+    color: #333;
+    background-color: #96d6f1;
+}
+
+/* Header styling */
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+    background-color: #FF69B4;
+    color: white;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    font-size: 1.8rem;
+}
+
+.logo i {
+    font-size: 2rem;
+}
+
+
+.navbar a {
+    color: white;
+    text-decoration: none;
+}
+
+/* Banner styling */
+.banner {
+    background-image: url('fashion-banner.jpg');
+    background-size: cover; /* Ensures the image covers the entire section */
+    background-position: center; /* Center the background image */
+    width: 100%; /* Set width to 95% */
+    margin: 0 auto; /* Center the banner */
+    height: 750px;
+    color: white;
+    text-align: center;
+    padding: 5rem 1rem; /* Adjust padding as needed */
+}
+
+.banner h1 {
+    font-size: 4rem;
+    color:rgb(19, 232, 210);
+}
+
+.banner p {
+    margin: 1rem 0;
+    font-size: 1.4rem;
+    color:rgb(19, 232, 210);
+    
+}
+
+.shop-button {
+   padding: 0.7rem 1.5rem; 
+   background-color: #FFD700; 
+   border: none; 
+   color: #333; 
+   font-weight: bold; 
+}
+
+/* Products Section */
+.products-section {
+   padding: 3rem 2rem; 
+   text-align: center; 
+}
+
+.products-section h2 {
+   font-size: 2rem; 
+   margin-bottom: 1.5rem; 
+   color: #FF69B4; 
+}
+
+.product-container {
+   display: flex; 
+   flex-wrap: wrap; 
+   gap: 1.5rem; 
+   justify-content: center; 
+}
+
+.product-card {
+   background-color: #fff; 
+   padding: 1rem; 
+   width: calc(33.33% - 20px); /* Adjusted for three cards per row with margins */
+   border-radius: 8px; 
+   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+   text-align: center; 
+}
+
+.product-card img {
+   width: 100%; 
+   border-radius: 5px; 
+}
+
+.add-to-cart {
+   padding: 0.5rem 1rem; 
+   background-color: #FF69B4; 
+   border: none; 
+   color: white; 
+}
+
+/* Footer styling */
+.footer {
+   background-color: #bab4b4; 
+   color: white; 
+   padding: 1.5rem; 
+   text-align: center; 
+}
+.footer i{
+    font-size:xx-large;
+}
